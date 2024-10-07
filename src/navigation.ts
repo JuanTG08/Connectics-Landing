@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -27,7 +27,7 @@ export const footerData = {
     {
       title: 'Productos',
       links: [
-        { text: 'Aviv', href: '#' },
+        { text: 'Aviv', href: 'https://www.aviv.homes/' },
         { text: 'Automailtion', href: '#' },
       ],
     },
